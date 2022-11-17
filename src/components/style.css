@@ -11,6 +11,22 @@
     box-shadow: 0 0px 5px 0 black;
     font-size: 17px;
 }
+ 
+.nav-current{
+    margin-right: 50px;
+    color: rgb(235, 109, 151);
+
+}
+.nav-detail{
+    margin-right: 50px;
+    color: rgb(235, 109, 151);
+
+}
+.nav-portfolio{
+    margin-right: 50px;
+    color: rgb(235, 109, 151);
+
+}
 
 .footer{
     width: 100%;
@@ -21,7 +37,7 @@
     background: black;
     font-size: 17px;
     bottom: 0;
-    border: 1px solid pink;
+    border-top: 1px solid pink;
 }
 
 .footer-inner{
@@ -64,3 +80,36 @@
 a{
     text-decoration: inherit;
 }
+.navBar{
+    display: flex;
+    flex-direction: row;
+    margin-left: 58rem;
+}
+
+
+.nav-home{
+    margin-right: 50px;
+}
+
+.nav-home:hover{
+    cursor: pointer;
+    color: rgb(235, 109, 151);
+}
+
+.nav-detail{
+    margin-right: 50px;
+}
+
+.nav-detail:hover{
+    cursor: pointer;
+    color: rgb(235, 109, 151);
+    }
+
+.nav-porfolio{
+    margin-right: 0;
+}
+
+.nav-porfolio:hover{
+    cursor: pointer;
+    color: rgb(235, 109, 151);
+    }

@@ -1,0 +1,23 @@
+.main{
+    margin: auto;
+    display: flex;
+    padding: 5rem 0rem 0rem 15rem;
+    background: black;
+}
+.prof-img{
+    width: 12rem;
+    height: 17rem;
+    border: 2px solid pink;
+    border-radius: 30%;
+}
+.more-button{
+    width: 8rem;
+    height: 3rem;
+    background: pink;
+    margin: 3rem 0 3rem 0;
+    border-radius: 6px;
+}
+.more-button:hover{
+    cursor: pointer;
+    background:  rgb(235, 109, 151);
+}

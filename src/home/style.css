@@ -1,14 +1,26 @@
+.bigContainer{
+    width: 100%;
+    padding-right: 0;
+    padding-left: 0;
+    margin-right: auto;
+    margin-left: auto;
+}
+.containerMain{
+    background: linear-gradient(80deg, rgb(11, 10, 10) 50%, #aa4e79 99%);    right:0;
+    font-style: oblique;
+    width: fit-content;
+}
 .main{
-    margin: auto;
+    width: 100%;
+    min-width: fit-content;
+    min-width: 100vh;
     display: flex;
-    padding: 5rem 0rem 0rem 15rem;
-    background: black;
+    padding: 5rem 0rem 0rem 0rem;
 }
 .prof-img{
-    width: 12rem;
-    height: 17rem;
-    border: 2px solid pink;
-    border-radius: 30%;
+    width: 24rem;
+    height: 12rem;   
+    padding-left: 10rem;
 }
 .more-button{
     width: 8rem;
@@ -20,4 +32,10 @@
 .more-button:hover{
     cursor: pointer;
     background:  rgb(235, 109, 151);
+}
+.bottom-container{
+    margin: auto;
+    display: flex;
+    text-align: center;
+    width: 100%;
 }
